@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+<listener class-name="com.listeners.ListenerEx"/>
+</listeners>
+	<test name="Test">
+		<classes>
+					<class name="com.jbk.test.DashboardTest" />
+			<!-- <class name="com.jbk.test.LoginTest" />
+			<class name="com.jbk.test.OperatorTest" />
+			<class name="com.jbk.test.UserTest" />
+			<class name="com.jbk.test.UsefulLinkTest" />
+			<class name="com.jbk.test.DownloadsTest" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

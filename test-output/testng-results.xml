@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3601" started-at="2021-11-13T09:23:25Z" finished-at="2021-11-13T09:23:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3601" started-at="2021-11-13T09:23:25Z" finished-at="2021-11-13T09:23:29Z">
+      <class name="com.jbk.test.DashboardTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jbk.test.DashboardTest@731a74c]" name="setup" is-config="true" duration-ms="3352" started-at="2021-11-13T14:53:25Z" finished-at="2021-11-13T14:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySubCourses()[pri:0, instance:com.jbk.test.DashboardTest@731a74c]" name="verifySubCourses" duration-ms="135" started-at="2021-11-13T14:53:28Z" finished-at="2021-11-13T14:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubCourses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.test.DashboardTest@731a74c]" name="tearDown" is-config="true" duration-ms="93" started-at="2021-11-13T14:53:29Z" finished-at="2021-11-13T14:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk.test.DashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

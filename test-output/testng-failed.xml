@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.jbk.test.OperatorTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkTiming"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jbk.test.OperatorTest -->
+      <class name="com.jbk.test.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jbk.test.LoginTest -->
+      <class name="com.jbk.test.UsefulLinkTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.jbk.test.UsefulLinkTest -->
+      <class name="com.jbk.test.DashboardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jbk.test.DashboardTest -->
+      <class name="com.jbk.test.UserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jbk.test.UserTest -->
+      <class name="com.jbk.test.DownloadsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.jbk.test.DownloadsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
